@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+table {
+border-collapse: collapse;
+width: 90%;
+margin: 20px auto;
+}
+
+th, td {
+    border: 0.2px solid #cac1c1;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #c8e3fd;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #e4f2ff;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: grey;
+    font-size: 16px;
+}

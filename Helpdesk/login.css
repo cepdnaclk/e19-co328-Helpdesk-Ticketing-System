@@ -1,0 +1,111 @@
+html,
+body {
+    height: 100%;
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-signin {
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 8px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 8px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="tel"] {
+  margin-bottom: 8px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin select {
+  margin-bottom: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin textarea {
+  margin-bottom: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-in-img {
+    width: 100%;
+}
+
+.sign-up-img {
+  width: 120%;
+}
+
+.btn-css {
+    margin-top: 15px;
+}
+
+@media (max-width:768px ){
+  .sign-up-img {
+    height: 0;
+  }
+  .sign-in-img {
+    height: 0;
+}
+}
+
+@media (min-width:768px ){
+  .img-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .form-signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.status {
+  background-color: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+
+

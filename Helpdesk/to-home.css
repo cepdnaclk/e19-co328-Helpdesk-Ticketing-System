@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+table {
+border-collapse: collapse;
+width: 90%;
+margin: 20px auto;
+}
+
+th, td {
+    border: 0.2px solid #cac1c1;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #aecbe7;
+}
+
+tr:nth-child(even) {
+    background-color: #e4f2ff;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: grey;
+    font-size: 16px;
+}
+.check-btn{
+    background-color: #4CAF50; /* Green background color */
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
