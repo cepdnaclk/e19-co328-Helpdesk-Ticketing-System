@@ -1,0 +1,22 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore composer.lock file
+/composer.lock
+
+# Ignore environment file
+.env
+
+# Ignore log files and any file ending with .log
+*.log
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+
+# Ignore system generated files
+Thumbs.db
+.DS_Store
+
+# Ignore any backup files
+*.bak
