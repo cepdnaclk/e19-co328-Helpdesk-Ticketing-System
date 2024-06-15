@@ -9,7 +9,7 @@
 <html>
     <head>
         <title>Home</title>
-        <link rel="stylesheet" href="to-home.css">
+        <link rel="stylesheet" href="public/css/to-home.css">
     </head>
 
     <body>

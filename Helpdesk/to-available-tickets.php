@@ -18,7 +18,7 @@ include('header-to-back.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pending Tickets</title>    
-    <link rel="stylesheet" href="to-available-ticket.css">
+    <link rel="stylesheet" href="public/css/to-available-ticket.css">
 </head>
 <body>
     <?php

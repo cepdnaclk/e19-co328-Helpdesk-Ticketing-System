@@ -36,7 +36,7 @@ $user_id= $_SESSION['auth_user']['userid'];
 <html>
     <head>
         <title>Home</title>
-        <link rel="stylesheet" href="to-home.css">
+        <link rel="stylesheet" href="public/css/to-home.css">
         <style>
             .check-btn{
                 background-color: #4CAF50; 
