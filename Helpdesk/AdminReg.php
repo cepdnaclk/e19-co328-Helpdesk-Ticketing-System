@@ -34,7 +34,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="public/images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +47,7 @@
         <div class="col-lg col-md-6 col-sm-12">
                 <main class="form-signin w-100 m-auto">
                     <form method="post">
-                    <!-- <img class="mb-2 logo" src="images/logo.png" alt="" height="100"> -->
+                    <!-- <img class="mb-2 logo" src="public/images/logo.png" alt="" height="100"> -->
                     <h1 class="h3 mb-3 fw-bold">Register a New User</h1>
 
                     <div class="form-floating">
@@ -88,7 +88,7 @@
             </div>
             <!-- <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="img-container">
-                    <img class="sign-up-img" src="images/help-desk-2.png" alt="help-desk">
+                    <img class="sign-up-img" src="public/images/help-desk-2.png" alt="help-desk">
                 </div>
             </div> -->
         

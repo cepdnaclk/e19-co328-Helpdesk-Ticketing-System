@@ -36,7 +36,7 @@ function hasCompleted($conn,$user_id){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>previous tickets</title>
-    <link rel="stylesheet" href="display-tickets.css">
+    <link rel="stylesheet" href="public/css/display-tickets.css">
 </head>
 <style>
 h3{

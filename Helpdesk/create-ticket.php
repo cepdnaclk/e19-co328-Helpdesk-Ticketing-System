@@ -127,7 +127,7 @@ $customerId= $_SESSION['auth_user']['userid'];
         </form>
         <div class="popup-container" id="popup">
         <div class="image-container">
-            <img class="tick-img" src="images/tick.png">
+            <img class="tick-img" src="public/images/tick.png">
         </div>
         <div class="popup-header">Successfull!</div>
         <div class="popup-message">Data added successfully created.</div>

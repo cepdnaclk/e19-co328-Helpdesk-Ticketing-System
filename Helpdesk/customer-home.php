@@ -18,7 +18,7 @@ include('header-customer.php');
     <link rel="stylesheet" href="path_to_attricss_file.css" type="text/css">
     <style>
         body {
-            background-image: url('images/background.jpg');
+            background-image: url('public/images/background.jpg');
             content: "";
             position: absolute;
             top: 0;
