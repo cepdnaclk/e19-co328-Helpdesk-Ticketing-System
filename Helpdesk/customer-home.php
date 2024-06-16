@@ -1,16 +1,17 @@
-<?php 
+<?php
 
-include('authentication_cus.php');
-include('header-customer.php');
+include ('authentication_cus.php');
+include ('header-customer.php');
 ?>
 <?php if (isset($_SESSION['status'])) { ?>
-    <p class="status"><?php echo $_SESSION['status']; 
+    <p class="status"><?php echo $_SESSION['status'];
     unset($_SESSION['status']) ?></p>
-    <?php }
+<?php }
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,24 +28,32 @@ include('header-customer.php');
             height: 100%;
             background-size: cover;
             background-position: center;
-    }
-    .container{
-           color: white;
-           margin-top: 11%;
-    }  
-    .welcomenote{
-        font-size: 40px;
-        padding-top:10px ;
-        padding-bottom: 10px;
-        font-weight: 600;
-    } 
-    .para{
-        padding-top: 10px;
-        padding-bottom: 30px;
-    }
+        }
 
+        .container {
+            color: white;
+            margin-top: 11%;
+        }
+
+        .welcomenote {
+            font-size: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .para {
+            padding-top: 10px;
+            padding-bottom: 30px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="welcomenote">
@@ -54,23 +63,28 @@ include('header-customer.php');
             <div class="para">
                 Get repaired your device from the tech hub. The computer repair<br> center of IT center of UOP.
             </div>
-            <div>
-                <button class="btn btn-lg btn-outline-warning" id="create" style="margin-right: 10px;">Create a Ticket</button>
-                <button class="btn btn-lg btn-outline-warning" id="track"> Previous Tickets</button>
-                
+            <div class="button-container">
+                <button class="btn btn-lg btn-outline-warning" id="create" ">Create a
+                    Ticket</button>
+                <button class=" btn btn-lg btn-outline-warning" id="track"> Previous Tickets</button>
+                <button class="btn btn-lg btn-outline-warning" id="invoice"> Invoices</button>
             </div>
         </div>
     </div>
-    
+
     <script>
-        
-        document.getElementById("create").addEventListener("click", function() {
+
+        document.getElementById("create").addEventListener("click", function () {
             window.location.href = "create-ticket.php";
         });
-        document.getElementById("track").addEventListener("click", function() {
+        document.getElementById("track").addEventListener("click", function () {
             window.location.href = "display-tickets.php";
+        });
+        document.getElementById("invoice").addEventListener("click", function () {
+            window.location.href = "customer-invoice.php";
         });
 
     </script>
 </body>
+
 </html>
