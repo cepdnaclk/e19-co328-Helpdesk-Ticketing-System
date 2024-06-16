@@ -54,6 +54,9 @@ $user_id= $_SESSION['auth_user']['userid'];
             .clicked-btn{
                 background-color: grey;
             }
+            h4 {
+                color: grey;
+            }
         </style>
     </head>
     <body>
@@ -70,7 +73,6 @@ $user_id= $_SESSION['auth_user']['userid'];
 
         ?>
 
-        <h1>Dashboard</h1>
         <h3>Tickets In Progress</h3>
         <?php if($hasInProgress){?>
         <section>

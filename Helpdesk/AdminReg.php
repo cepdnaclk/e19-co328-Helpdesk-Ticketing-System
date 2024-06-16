@@ -1,7 +1,7 @@
 <?php 
     include 'db_conn.php';
     include('authentication_admin.php');
-    include('header-admin-back.php');
+    include('header-back.php');
 
     if($_SERVER['REQUEST_METHOD']=='POST'){
         $name = $_POST['name'];
@@ -48,7 +48,7 @@
                 <main class="form-signin w-100 m-auto">
                     <form method="post">
                     <!-- <img class="mb-2 logo" src="public/images/logo.png" alt="" height="100"> -->
-                    <h1 class="h3 mb-3 fw-bold">Register a New User</h1>
+                    <h1 class="h3 mb-3 fw-bold" style="color: white;">Register a New User</h1>
 
                     <div class="form-floating">
                         <input type="text" class="form-control" name="name" id="floatingName" placeholder="Enter Your Name" required>
@@ -81,7 +81,7 @@
                         <label for="floatingPassword">Password</label>
                     </div>
                     
-                    <button class="btn btn-primary w-100 py-2 btn-css" name="reg-btn" type="submit">Register</button>
+                    <button class="btn btn-warning w-100 py-2 btn-css" name="reg-btn" type="submit">Register</button>
                     <!-- <p class="mt-3 text-body-primary">Already have an account? <a href="sign-in.php">Sign in</a></p> -->
                     </form>
                 </main>

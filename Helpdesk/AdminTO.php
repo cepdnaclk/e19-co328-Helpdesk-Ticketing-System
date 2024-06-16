@@ -10,10 +10,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .searchBtn{
+        /* .searchBtn{
             background-color: #022b51;
             color: white;
-        }
+        } */
         .titleSt{
             color: #053B50;
             text-align: center;
@@ -28,14 +28,14 @@
 </head>
 <body>
     <section>
-        <h2 class="m-4 p-3 titleSt">Technical Officer Details</h2>
+        <h2 class="m-4 p-3 titleSt" style="color: white;">Technical Officer Details</h2>
         <pre></pre>
         
         <form action="" method="post">
             <div class="container m-3">
                 <!-- <h5 class="fw-light">Search TO by id</h5> -->
                 <input type="number" placeholder=" Search TO by id" name="TOid" id="search_box">
-                <button class="btn btn-sm searchBtn" name="submitt">Search</button>
+                <button class="btn btn-warning btn-sm searchBtn" name="submitt">Search</button>
             </div>
         </form>
 

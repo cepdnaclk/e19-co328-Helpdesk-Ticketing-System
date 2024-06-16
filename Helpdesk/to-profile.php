@@ -28,6 +28,30 @@ if (isset($_SESSION['status'])) {
             padding: 0;
             box-sizing: border-box;
         }
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .go-back {
+            color: white;
+            margin-right: 30px;
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s ease; /* Smooth transition for color change */
+        }
+
+        a:hover {
+            color: #fecf00cf; /* Change color on hover to your desired color */
+            text-decoration: none;
+        }
+        
+        .edit-icon:hover{
+            color: black;
+        }
 
         .section {
             width: 45%;
@@ -48,7 +72,7 @@ if (isset($_SESSION['status'])) {
         .box {
             border-radius: .5rem;
             padding: 2rem;
-            background-color: #E4F1FF;
+            background-color: #ffefa6;
             box-shadow: var(--box-shadow);
             border: var(--border);
             text-align: center;
@@ -90,6 +114,10 @@ if (isset($_SESSION['status'])) {
             text-overflow: ellipsis;
             white-space: nowrap;
         }
+
+        .bg-infos {
+            background-color: #fed000;
+        }
     </style>
 </head>
 
@@ -104,12 +132,12 @@ if (isset($_SESSION['status'])) {
             <div class="row d-flex justify-content-center">
                 <div class="col-md-10 mt-5 pt-5">
                     <div class="row z-depth-3">
-                        <div class="col-sm-4 bg-info rounded-left">
+                        <div class="col-sm-4 bg-infos rounded-left">
                             <div class="card-block text-center text-white">
                                 <i class="fas fa-user-tie fa-7x mt-5"></i>
                                 <h2 class="font-weight-bold mt-4"><?php echo $profile_data['TechOfficerName'] ?></h2>
                                 <p>Technical Officer</p>
-                                <a href="update_details.php">
+                                <a href="update_details.php" class="edit-icon">
                                     <i class="far fa-edit fa-2x mb-4"><span class="custom-text"> Edit</span></i>
                                 </a>
                             </div>

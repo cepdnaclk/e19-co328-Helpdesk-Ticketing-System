@@ -23,13 +23,14 @@ function getInvoices($conn, $user_id)
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/header.css">
     <title>Show Invoices</title>
     <style>
-        body {
+        /* body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
             color: #343a40;
-        }
+        } */
 
         .invoice-container {
             max-width: 400px;

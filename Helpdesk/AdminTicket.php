@@ -13,10 +13,10 @@
 
     <style>
 
-        .searchBtn{
+        /* .searchBtn{
             background-color: #022b51;
             color: white;
-        }
+        } */
         .titleSt{
             color: #053B50;
             text-align: center;
@@ -30,13 +30,13 @@
 </head>
 <body>
     <section>
-        <h2 class="m-4 p-3 titleSt">Ticket Details</h2>
+        <h2 class="m-4 p-3 titleSt" style="color: white;">Ticket Details</h2>
         <pre></pre>
         
         <form action="" method="post">
             <div class="container m-3">
                 <input type="number" placeholder=" Search Ticket by id" name="Ticketid">
-                <button class="btn btn-sm searchBtn" name="submitt">Search</button>
+                <button class="btn btn-warning btn-sm searchBtn" name="submitt">Search</button>
             </div>
         </form>
 

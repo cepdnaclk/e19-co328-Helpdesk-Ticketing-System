@@ -17,7 +17,7 @@ include('header.php');
             text-align: center;
         }
         .cardSt{
-            background-color: #FAF1E4;
+            background-color: #fff0ad;
         }
     </style>
 
@@ -26,7 +26,7 @@ include('header.php');
 <body>
     <div class="container my-4">
         <br>
-        <h2 class="m-4 text-center">Director Admin Dashboard</h2>
+        <h2 class="m-4 text-center" style="color: white;">Director Admin Dashboard</h2>
         <br>
         
         <div class="row justify-content-center m-3">
@@ -35,7 +35,7 @@ include('header.php');
                 <div class="card mb-4 h-100">
                     <div class="card-body cardSt text-center">
                         <pre></pre>
-                        <h5 style="color: #053B50;">Invoices</h5>
+                        <h5>Invoices</h5>
                         <pre></pre>
                         <div class="card-text">
                         <?php

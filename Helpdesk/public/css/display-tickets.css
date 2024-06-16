@@ -18,13 +18,18 @@ th, td {
 }
 
 th {
-    background-color: #c8e3fd;
+    background-color: #fed000;
     
 }
 
 tr:nth-child(even) {
-    background-color: #e4f2ff;
+    background-color: #ffefa9;
 }
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
 h1{
     text-align: center;
     margin-top: 20px;
@@ -34,6 +39,7 @@ h3{
     margin-top: 20px;
     font-size: 18px;
     font-weight: bolder;
+    color: white;
 }
 h4{
     text-align: center;

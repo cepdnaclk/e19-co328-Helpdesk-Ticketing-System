@@ -1,6 +1,14 @@
-body {
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(10, 10, 10), #222222);
+    flex: 1;
 }
 
 .card {
@@ -14,10 +22,12 @@ body {
 
 .card.priority {
     border-left: 5px solid red; /* Customize color for priority */
+    background-color: #ffc0c0;
 }
 
 .card.normal {
     border-left: 5px solid green; /* Customize color for normal priority */
+    background-color: rgb(210, 255, 210);
 }
 
 table {

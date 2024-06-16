@@ -1,7 +1,7 @@
 <?php 
     include 'db_conn.php';
     include('authentication_admin.php');
-    include('header.php');
+    include('header-back.php');
 ?>
 
 <!DOCTYPE html>
@@ -17,10 +17,10 @@
         /* body{
             background-color: #8abae6;
         } */
-        .searchBtn{
+        /* .searchBtn{
             background-color: #022b51;
             color: white;
-        }
+        } */
         .titleSt{
             color: #053B50;
             text-align: center;
@@ -35,7 +35,7 @@
 </head>
 <body>
     <section>
-        <h2 class="m-4 p-3 titleSt">Invoice Details</h2>
+        <h2 class="m-4 p-3 titleSt" style="color: white;">Invoice Details</h2>
         <pre></pre>
 
         <div class="container">

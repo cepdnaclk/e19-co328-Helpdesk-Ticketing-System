@@ -21,6 +21,7 @@ include('header-eng-back.php');
     <title>Pending Tickets</title>    
     <link rel="stylesheet" href="public/css/to-available-ticket.css">
 </head>
+
 <body>
     <?php
         $status = "Pending";
@@ -129,7 +130,7 @@ include('header-eng-back.php');
 
             
         }else{
-            echo 'No Pending Tickets';
+            echo '<h5 style="color:white; margin-top:20px;"> No Pending Tickets </h5>';
         }
     
 

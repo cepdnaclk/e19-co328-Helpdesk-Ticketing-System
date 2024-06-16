@@ -1,7 +1,7 @@
 <?php 
     include 'db_conn.php';
     include('authentication_director.php');
-    include('header.php');
+    include('header-back.php');
 ?>
 
 <!DOCTYPE html>
@@ -16,11 +16,11 @@
             color: white;
         }
         .titleSt{
-            color: #053B50;
+            color: white;
             text-align: center;
         }
         .cardSt{
-            background-color: #FAF1E4;
+            background-color: #fff0ad;
         }
     </style>
 
@@ -86,7 +86,7 @@
                             
                         }
                     } else {
-                        echo '<div class="col-12"><h4 class="m-4">No invoices for Pending Tickets.</h4></div>';
+                        echo '<div class="col-12"><h4 class="m-4" style="color:grey;">No invoices for Pending Tickets.</h4></div>';
                     }
                 ?>
             </div>

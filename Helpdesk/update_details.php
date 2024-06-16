@@ -31,7 +31,15 @@
 <html>
     <head>
         <title>Update Profile</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <style>
+            body {
+                font-family: 'Poppins', sans-serif;
+            }
+
            .container {
                 max-width: 500px;
                 margin: 0 auto;
@@ -55,10 +63,10 @@
                 margin-bottom: 5px;
                 text-align: left;
             }
-            .btn{
+            /* .btn{
                 display: flex;
                 justify-content: center;
-            }
+            } */
 
             input[type="text"],
             input[type="email"] {
@@ -69,7 +77,7 @@
                 border-radius: 4px;
             }
 
-            input[type="submit"] {
+            /* input[type="submit"] {
                 background-color: #0088a9;
                 color: #fff;
                 border: none;
@@ -77,11 +85,11 @@
                 padding: 10px 20px;
                 cursor: pointer;
                 font-size: 16px;
-            }
+            } */
 
-            input[type="submit"]:hover {
+            /* input[type="submit"]:hover {
                 background-color: #007799;
-            }
+            } */
         </style>
     </head>
     <body>
@@ -104,7 +112,8 @@
                     <input type="text" name="ContactNo" id="contact" value="<?php echo $profile_data['ContactNo']; ?>"><br>
                     
 
-                    <div class="btn"><input type="submit" value="Update Profile"></div>
+                    <!-- <div class="btn btn-warning w-100 py-2 btn-css"><input type="submit" value="Update Profile"></div> -->
+                    <button class="btn btn-warning w-100 py-2 btn-css" name="submit-btn" type="submit">Update Profile</button>
                 </form>
             
         </div>

@@ -16,7 +16,7 @@
             text-align: center;
         }
         .cardSt{
-            background-color: #FAF1E4;
+            background-color: #fff0ad;
         }
     </style>
 
@@ -25,7 +25,7 @@
 <body>
     <div class="container my-4">
         <br>
-        <h2 class="m-4 text-center">Updates</h2>
+        <h2 class="m-4 text-center" style="color: white;">Updates</h2>
         <br>
         
         <div class="row justify-content-center m-3">

@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
     <div class="container-fluid">
         <a class="go-back" aria-current="page" href="javascript:window. history. back();"><img class="back-img" src="public/images/back-white.png" alt="logo" height="30">  Back</a>
         <a class="navbar-brand" href="sign-in.php"><img src="public/images/logo_white.png" alt="logo" height="40"></a>

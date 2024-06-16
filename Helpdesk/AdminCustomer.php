@@ -14,10 +14,10 @@
         body{
             background-color: aliceblue;
         }
-        .searchBtn{
+        /* .searchBtn{
             background-color: #022b51;
             color: white;
-        }
+        } */
         .titleSt{
             color: #053B50;
             text-align: center;
@@ -31,14 +31,14 @@
 </head>
 <body>
     <section>
-        <h2 class="m-4 p-3 titleSt">Customer Details</h2>
+        <h2 class="m-4 p-3 titleSt" style="color: white;">Customer Details</h2>
         <pre></pre>
         
         <form action="" method="post">
             <div class="container m-3">
                 <!-- <h5 class="fw-light">Search TO by id</h5> -->
                 <input type="text" placeholder=" Search by name" name="TOid">
-                <button class="btn btn-sm searchBtn" name="submitt">Search</button>
+                <button class="btn btn-warning btn-sm searchBtn" name="submitt">Search</button>
             </div>
         </form>
 
@@ -68,7 +68,7 @@
                                     echo '</div>';
                                 }
                             }else{
-                                echo '<h4 class="m-4">Data not found.</h4>';
+                                echo '<h4 class="m-4" style="color: grey;">Data not found.</h4>';
                             }
                         }else{}
                     }

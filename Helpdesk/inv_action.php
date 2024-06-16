@@ -5,7 +5,7 @@ include 'send-email-invoice-created.php';
 $userid= $_SESSION['auth_user']['userid'];
 
 try {
-    $conn1 = new PDO("mysql:host=localhost;dbname=techub", "root", "");
+    $conn1 = new PDO("mysql:host=localhost;dbname=techub", "root", "1234");
 
     foreach ($_POST['Inv_des'] as $key => $value) {
         $status= "pending";
