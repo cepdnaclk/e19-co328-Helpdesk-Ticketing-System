@@ -20,3 +20,7 @@ Thumbs.db
 
 # Ignore any backup files
 *.bak
+
+# PHPUnit testing cache
+.phpunit.result.cache
+/Helpdesk/.phpunit.cache

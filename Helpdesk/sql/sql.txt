@@ -1,5 +1,5 @@
-CREATE DATABASE TecHub;
-USE TecHub;
+CREATE DATABASE techub;
+USE techub;
 
 CREATE TABLE Customer (
     CustomerID INT PRIMARY KEY AUTO_INCREMENT,
