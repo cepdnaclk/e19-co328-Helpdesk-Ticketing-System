@@ -1,8 +1,8 @@
-# Ignore vendor directory
-/vendor/
+# Ignore vendor directory in Helpdesk folder
+/Helpdesk/vendor/
 
-# Ignore composer.lock file
-/composer.lock
+# Ignore composer.lock file in Helpdesk folder
+/Helpdesk/composer.lock
 
 # Ignore environment file
 .env
@@ -11,8 +11,8 @@
 *.log
 
 # Ignore IDE and editor specific files
-.vscode/
-.idea/
+/Helpdesk/.vscode/
+/Helpdesk/.idea/
 
 # Ignore system generated files
 Thumbs.db
