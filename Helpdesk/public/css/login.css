@@ -1,7 +1,8 @@
 html,
 body {
     height: 100%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background: linear-gradient(to bottom right, rgb(10, 10, 10), #222222);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -67,6 +68,9 @@ body {
 
 .btn-css {
     margin-top: 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    background-color: #fed000;
 }
 
 @media (max-width:768px ){
@@ -96,6 +100,12 @@ body {
 
 a {
   text-decoration: none;
+  color: #fed000;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+  color: #fecf00cf; /* Change color on hover to your desired color */
 }
 
 .status {

@@ -45,15 +45,10 @@ else if (isset($_SESSION['authenticated_director'])) {
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="img-container">
-                    <img class="sign-in-img" src="public/images/help-desk.png" alt="help-desk">
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
                 <main class="form-signin w-100 m-auto">
                     <form action="login.php" method="post">
-                    <img class="mb-2 logo" src="public/images/logo.png" alt="" height="100">
-                    <h1 class="h3 mb-3 fw-bold">Sign in</h1>
+                    <img class="mb-2 logo" src="public/images/logo_white.png" alt="" height="100">
+                    <h1 class="h3 mb-3 fw-bold" style="color: white; margin-top: 5px;">Sign in</h1>
                 
                     <?php if (isset($_SESSION['status'])) { ?>
                         <p class="status"><?php echo $_SESSION['status']; 
@@ -70,11 +65,16 @@ else if (isset($_SESSION['authenticated_director'])) {
                         <label for="floatingPassword">Password</label>
                     </div>
                 
-                    <button class="btn btn-primary w-100 py-2 btn-css" name="sign-btn" type="submit">Sign in</button>
+                    <button class="btn btn-warning w-100 py-2 btn-css" name="sign-btn" type="submit">Sign in</button>
 
-                    <p class="mt-3 text-body-primary">Don't have an account? <a href="sign-up.php">Sign Up</a></p>
+                    <p class="mt-3 text-body-primary" style="color: white;">Don't have an account? <a href="sign-up.php">Sign Up</a></p>
                     </form>
                 </main>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="img-container">
+                    <img class="sign-in-img" src="public/images/help-desk.png" alt="help-desk">
+                </div>
             </div>
         </div>
     </div>

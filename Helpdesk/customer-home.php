@@ -55,8 +55,8 @@ include('header-customer.php');
                 Get repaired your device from the tech hub. The computer repair<br> center of IT center of UOP.
             </div>
             <div>
-                <button class="btn btn-lg btn-dark" id="create">Create a Ticket</button>
-                <button class="btn btn-lg btn-dark" id="track"> Previous Tickets</button>
+                <button class="btn btn-lg btn-outline-warning" id="create" style="margin-right: 10px;">Create a Ticket</button>
+                <button class="btn btn-lg btn-outline-warning" id="track"> Previous Tickets</button>
                 
             </div>
         </div>

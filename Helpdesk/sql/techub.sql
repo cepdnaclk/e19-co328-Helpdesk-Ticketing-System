@@ -62,15 +62,6 @@ CREATE TABLE `customer` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `customer`
---
-
-INSERT INTO `customer` (`CustomerID`, `CustomerName`, `Email`, `ContactNo`, `RegNo`, `CustPassword`) VALUES
-(1, 'nipuni sathya', 'nipunisathya33@gmail.com', '345678965432', 'e/19/166', '$2y$10$o/CQM52LvGK1t/ZNTzWnc.WCD5j01gR/omSCH0a1mcF4tHT9jO7Ka');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `invoice`
 --
 
@@ -81,14 +72,6 @@ CREATE TABLE `invoice` (
   `InvoiceStatus` varchar(255) NOT NULL,
   `TicketId` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `invoice`
---
-
-INSERT INTO `invoice` (`InvoiceId`, `Amount`, `InvoiceDes`, `InvoiceStatus`, `TicketId`) VALUES
-(33, 500, 'test last', 'Accepted', 13),
-(35, 200, 'sdfghjgfdrfseda', 'rejected', 14);
 
 -- --------------------------------------------------------
 
@@ -134,14 +117,6 @@ CREATE TABLE `ticket` (
   `InvoiceId` int(11) DEFAULT NULL,
   `AcceptDateTime` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `ticket`
---
-
-INSERT INTO `ticket` (`TicketId`, `OpenDateTime`, `ClosedDateTime`, `TStatus`, `TPriority`, `TicketDes`, `customerEmail`, `IssueType`, `Telephone`, `CustomerId`, `TechOfficerId`, `InvoiceId`, `AcceptDateTime`) VALUES
-(13, '2023-12-07 20:43:21', NULL, 'Due payment', 0, 'xsdfghj,km', 'nipunisathya33@gmail.com', 'Graphics card and Display issues', '51465', 1, 1, 33, '2023-12-07 20:44:09'),
-(14, '2023-12-07 20:43:42', NULL, 'In Progress', 0, 'xsdfghjkl', 'nipunisathya33@gmail.com', 'Memory(RAM) problems', '51465', 1, 1, NULL, '2023-12-07 20:44:12');
 
 --
 -- Indexes for dumped tables
