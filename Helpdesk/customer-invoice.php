@@ -11,9 +11,26 @@ function getInvoices($conn, $user_id)
 {
     $query = "SELECT * FROM `invoice` 
               INNER JOIN `ticket` ON invoice.InvoiceId = ticket.InvoiceId 
-              WHERE ticket.CustomerId = '$user_id'";
+              WHERE ticket.CustomerId = '$user_id' 
+              AND invoice.InvoiceStatus != 'rejected_by_customer'";
     $result = mysqli_query($conn, $query);
     return mysqli_fetch_all($result, MYSQLI_ASSOC);
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $invoiceId = $_POST['invoiceId'];
+    $action = $_POST['action'];
+
+    if ($action == 'accept') {
+        header("Location: payhereProcess.php?invoiceId=$invoiceId");
+        exit();
+    } elseif ($action == 'reject') {
+        $query = "UPDATE `invoice` SET `InvoiceStatus` = 'rejected_by_customer' WHERE `InvoiceId` = ?";
+        $stmt = $conn->prepare($query);
+        $stmt->bind_param("i", $invoiceId);
+        $stmt->execute();
+        $stmt->close();
+    }
 }
 ?>
 
@@ -26,12 +43,6 @@ function getInvoices($conn, $user_id)
     <link rel="stylesheet" href="public/css/header.css">
     <title>Show Invoices</title>
     <style>
-        /* body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            color: #343a40;
-        } */
-
         .invoice-container {
             max-width: 400px;
             margin: 20px auto;
@@ -110,7 +121,7 @@ function getInvoices($conn, $user_id)
         if (!empty($invoices)) {
             foreach ($invoices as $invoice) {
                 ?>
-                <div class="invoice">
+                <div class="invoice" id="invoice-<?php echo $invoice['InvoiceId']; ?>">
                     <h3>Invoice ID: <?php echo $invoice['InvoiceId']; ?></h3>
                     <ul>
                         <li>Amount: <?php echo $invoice['Amount']; ?></li>
@@ -119,8 +130,11 @@ function getInvoices($conn, $user_id)
                         <li>Ticket ID: <?php echo $invoice['TicketId']; ?></li>
                     </ul>
                     <div class="btn-container">
-                        <button class="accept-btn" onclick="acceptInvoice(<?php echo $invoice['InvoiceId']; ?>)">Accept</button>
-                        <button class="reject-btn" onclick="rejectInvoice(<?php echo $invoice['InvoiceId']; ?>)">Reject</button>
+                        <form method="post" action="">
+                            <input type="hidden" name="invoiceId" value="<?php echo $invoice['InvoiceId']; ?>">
+                            <button type="submit" name="action" value="accept" class="accept-btn">Accept</button>
+                            <button type="submit" name="action" value="reject" class="reject-btn">Reject</button>
+                        </form>
                     </div>
                 </div>
                 <?php
@@ -130,18 +144,6 @@ function getInvoices($conn, $user_id)
         }
         ?>
     </div>
-
-    <script>
-        function acceptInvoice(invoiceId) {
-            // You can implement the logic to accept the invoice here, such as updating its status in the database
-            console.log('Accepted Invoice ID:', invoiceId);
-        }
-
-        function rejectInvoice(invoiceId) {
-            // You can implement the logic to reject the invoice here, such as updating its status in the database
-            console.log('Rejected Invoice ID:', invoiceId);
-        }
-    </script>
 </body>
 
 </html>
