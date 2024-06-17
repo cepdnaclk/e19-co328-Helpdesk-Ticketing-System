@@ -1,11 +1,11 @@
 <?php
 
-include ('authentication_cus.php');
-include ('header-customer.php');
+include('authentication_cus.php');
+include('header-customer.php');
 ?>
 <?php if (isset($_SESSION['status'])) { ?>
     <p class="status"><?php echo $_SESSION['status'];
-    unset($_SESSION['status']) ?></p>
+                        unset($_SESSION['status']) ?></p>
 <?php }
 ?>
 
@@ -51,6 +51,16 @@ include ('header-customer.php');
             display: flex;
             gap: 10px;
         }
+
+        .chatbot-iframe {
+            position: fixed;
+            bottom: 20px;
+            right: 20px; 
+            width: 350px;
+            height: 430px;
+            border: none;
+            z-index: 9999;
+        }
     </style>
 </head>
 
@@ -64,16 +74,19 @@ include ('header-customer.php');
                 Get repaired your device from the tech hub. The computer repair<br> center of IT center of UOP.
             </div>
             <div class="button-container">
-                <button class="btn btn-lg btn-outline-warning" id="create" >Create a
-                    Ticket</button>
-                <button class=" btn btn-lg btn-outline-warning" id="track"> Previous Tickets</button>
-                <button class="btn btn-lg btn-outline-warning" id="invoice"> Invoices</button>
+                <button class="btn btn-lg btn-outline-warning" id="create">Create a Ticket</button>
+                <button class="btn btn-lg btn-outline-warning" id="track">Previous Tickets</button>
+                <button class="btn btn-lg btn-outline-warning" id="invoice">Invoices</button>
             </div>
         </div>
     </div>
 
-    <script>
+    <iframe class="chatbot-iframe"
+        allow="microphone;"
+        src="https://console.dialogflow.com/api-client/demo/embedded/ade9d565-2c22-4719-836f-8b9417b21510">
+    </iframe>
 
+    <script>
         document.getElementById("create").addEventListener("click", function () {
             window.location.href = "create-ticket.php";
         });
@@ -83,7 +96,6 @@ include ('header-customer.php');
         document.getElementById("invoice").addEventListener("click", function () {
             window.location.href = "customer-invoice.php";
         });
-
     </script>
 </body>
 
