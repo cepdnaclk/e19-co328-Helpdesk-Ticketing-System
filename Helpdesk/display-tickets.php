@@ -1,4 +1,4 @@
-<?php 
+<?php
 include('db_conn.php');
 include('authentication_cus.php');
 include('header-back.php');
@@ -48,190 +48,230 @@ $hasCompleted = hasCompleted($conn, $user_id);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Previous tickets</title>
     <link rel="stylesheet" href="public/css/display-tickets.css">
-    <style>
-        h3 {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        th {
-            font-weight: 550;
-        }
-
-        h4 {
-            font-weight: 500;
-        }
-
-        .check-btn {
-            background-color: #4CAF50;
-            border: none;
-            color: white;
-            padding: 5px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            text-align: center;
-        }
-
-        .check-btn:hover {
-            background-color: #45a049;
-        }
-
-        .clicked-btn {
-            background-color: grey;
-        }
-    </style>
+    <link rel="stylesheet" href="public/css/tab-styles.css"> <!-- External stylesheet for tab styles -->
 </head>
 
 <body>
-    <h3>Pending Tickets</h3>
-    <?php if ($hasPending) { ?>
-        <section>
-            <table>
-                <tr>
-                    <th>Ticket ID</th>
-                    <th>Open Date Time</th>
-                    <th>Priority</th>
-                    <th>Description</th>
-                    <th>Issue Type</th>
-                </tr>
-                <?php while ($row1 = mysqli_fetch_assoc($ticket_details_query_1)) { ?>
-                    <tr>
-                        <td><?= $row1['TicketId'] ?></td>
-                        <td><?= $row1['OpenDateTime'] ?></td>
-                        <td><?= $row1['TPriority'] ?></td>
-                        <td><?= $row1['TicketDes'] ?></td>
-                        <td><?= $row1['IssueType'] ?></td>
-                    </tr>
-                <?php } ?>
-            </table>
-        </section>
-    <?php } else { ?>
-        <h4>No Tickets are pending.</h4>
-    <?php } ?>
 
-    <h3>Tickets In Progress</h3>
-    <?php if ($hasInProgress) { ?>
-        <section>
-            <table>
-                <tr>
-                    <th>Ticket ID</th>
-                    <th>Open Date Time</th>
-                    <th>Accepted Date Time</th>
-                    <th>Priority</th>
-                    <th>Description</th>
-                    <th>Issue Type</th>
-                    <th>Technical Officer ID</th>
-                    <th>Technical Officer Email</th>
-                    <th>Contact Number</th>
-                </tr>
-                <?php while ($row1 = mysqli_fetch_assoc($ticket_details_query_2)) {
-                    $to_details_query_2 = mysqli_query($conn, "SELECT * FROM `techofficer` WHERE TechOfficerID='{$row1['TechOfficerId']}'");
-                    $row2 = mysqli_fetch_assoc($to_details_query_2);
-                    ?>
-                    <tr>
-                        <td><?= $row1['TicketId'] ?></td>
-                        <td><?= $row1['OpenDateTime'] ?></td>
-                        <td><?= $row1['AcceptDateTime'] ?></td>
-                        <td><?= $row1['TPriority'] ?></td>
-                        <td><?= $row1['TicketDes'] ?></td>
-                        <td><?= $row1['IssueType'] ?></td>
-                        <td><?= $row1['TechOfficerId'] ?></td>
-                        <td><?= ($row2 ? $row2['Email'] : 'N/A') ?></td>
-                        <td><?= ($row2 ? $row2['ContactNo'] : 'N/A') ?></td>
-                    </tr>
-                <?php } ?>
-            </table>
-        </section>
-    <?php } else { ?>
-        <h4>No Tickets in progress.</h4>
-    <?php } ?>
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'pending')" id="defaultOpen">Pending Tickets</button>
+    <button class="tablinks" onclick="openTab(event, 'inprogress')">Tickets In Progress</button>
+    <button class="tablinks" onclick="openTab(event, 'duepayment')">Tickets with Due Payments</button>
+    <button class="tablinks" onclick="openTab(event, 'completed')">Completed Tickets</button>
+</div>
 
-    <h3>Tickets with due payments</h3>
-    <?php if ($hasDuePayment) { ?>
-        <section>
-            <table>
-                <tr>
-                    <th>Ticket ID</th>
-                    <th>Open Date Time</th>
-                    <th>Accepted Date Time</th>
-                    <th>Priority</th>
-                    <th>Description</th>
-                    <th>Issue Type</th>
-                    <th>Technical Officer ID</th>
-                    <th>Technical Officer Email</th>
-                    <th>Contact Number</th>
-                    <th>Payment</th>
-                </tr>
-                <?php while ($row2 = mysqli_fetch_assoc($ticket_details_query_3)) {
-                    $to_details_query_3 = mysqli_query($conn, "SELECT * FROM `techofficer` WHERE TechOfficerID='{$row2['TechOfficerId']}'");
-                    $row3 = mysqli_fetch_assoc($to_details_query_3);
-                    ?>
-                    <tr>
-                        <td><?= $row2['TicketId'] ?></td>
-                        <td><?= $row2['OpenDateTime'] ?></td>
-                        <td><?= $row2['AcceptDateTime'] ?></td>
-                        <td><?= $row2['TPriority'] ?></td>
-                        <td><?= $row2['TicketDes'] ?></td>
-                        <td><?= $row2['IssueType'] ?></td>
-                        <td><?= $row2['TechOfficerId'] ?></td>
-                        <td><?= ($row3 ? $row3['Email'] : 'N/A') ?></td>
-                        <td><?= ($row3 ? $row3['ContactNo'] : 'N/A') ?></td>
-                        <td>
-                            <form action="payment.php" method="post">
-                                <input type="hidden" name="ticketId" value="<?= $row2['TicketId'] ?>">
-                                <button class="check-btn" type="submit">&#10003;</button>
-                            </form>
-                        </td>
-                    </tr>
-                <?php } ?>
-            </table>
-        </section>
+<div id="pending" class="tabcontent">
+    <?php if ($hasPending && mysqli_num_rows($ticket_details_query_1) > 0) { ?>
+        <div class="card-container">
+            <?php while ($row1 = mysqli_fetch_assoc($ticket_details_query_1)) { ?>
+                <div class="ticket-card">
+                    <h3>Ticket ID: <?= $row1['TicketId'] ?></h3>
+                    <div class="ticket-details">
+                        <label>Open Date Time</label>
+                        <span class="value"><?= $row1['OpenDateTime'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Priority</label>
+                        <span class="value"><?= $row1['TPriority'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Description</label>
+                        <span class="value"><?= $row1['TicketDes'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Issue Type</label>
+                        <span class="value"><?= $row1['IssueType'] ?></span>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
     <?php } else { ?>
-        <h4>Tickets with due payments are not available right now.</h4>
+        <h4 class="no-tickets">No Tickets are pending.</h4>
     <?php } ?>
+</div>
 
-    <h3>Completed Tickets</h3>
-    <?php if ($hasCompleted) { ?>
-        <section>
-            <table>
-                <tr>
-                    <th>Ticket ID</th>
-                    <th>Open Date Time</th>
-                    <th>Accepted Date Time</th>
-                    <th>Priority</th>
-                    <th>Description</th>
-                    <th>Issue Type</th>
-                    <th>Technical Officer ID</th>
-                    <th>Technical Officer Email</th>
-                    <th>Contact Number</th>
-                </tr>
-                <?php while ($row3 = mysqli_fetch_assoc($ticket_details_query_4)) {
-                    $to_details_query_4 = mysqli_query($conn, "SELECT * FROM `techofficer` WHERE TechOfficerID='{$row3['TechOfficerId']}'");
-                    $row4 = mysqli_fetch_assoc($to_details_query_4);
-                    ?>
-                    <tr>
-                        <td><?= $row3['TicketId'] ?></td>
-                        <td><?= $row3['OpenDateTime'] ?></td>
-                        <td><?= $row3['AcceptDateTime'] ?></td>
-                        <td><?= $row3['TPriority'] ?></td>
-                        <td><?= $row3['TicketDes'] ?></td>
-                        <td><?= $row3['IssueType'] ?></td>
-                        <td><?= $row3['TechOfficerId'] ?></td>
-                        <td><?= ($row4 ? $row4['Email'] : 'N/A') ?></td>
-                        <td><?= ($row4 ? $row4['ContactNo'] : 'N/A') ?></td>
-                    </tr>
-                <?php } ?>
-            </table>
-        </section>
+
+<div id="inprogress" class="tabcontent">
+    <?php if ($hasInProgress && mysqli_num_rows($ticket_details_query_2) > 0) { ?>
+        <div class="card-container">
+            <?php while ($row2 = mysqli_fetch_assoc($ticket_details_query_2)) {
+                $to_details_query_2 = mysqli_query($conn, "SELECT * FROM `techofficer` WHERE TechOfficerID='{$row2['TechOfficerId']}'");
+                $row2_details = mysqli_fetch_assoc($to_details_query_2);
+                ?>
+                <div class="ticket-card">
+                    <h3>Ticket ID: <?= $row2['TicketId'] ?></h3>
+                    <div class="ticket-details">
+                        <label>Open Date Time</label>
+                        <span class="value"><?= $row2['OpenDateTime'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Accepted Date Time</label>
+                        <span class="value"><?= '2024-05-02' /* Replace with actual Accepted Date Time */ ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Priority:</label>
+                        <span class="value"><?= $row2['TPriority'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Description</label>
+                        <span class="value"><?= $row2['TicketDes'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Issue Type</label>
+                        <span class="value"><?= $row2['IssueType'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Technical Officer ID</label>
+                        <span class="value"><?= $row2['TechOfficerId'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Technical Officer Email</label>
+                        <span class="value"><?= ($row2_details ? $row2_details['Email'] : 'N/A') ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Contact Number</label>
+                        <span class="value"><?= ($row2_details ? $row2_details['ContactNo'] : 'N/A') ?></span>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
     <?php } else { ?>
-        <h4>No completed tickets.</h4>
+        <h4 class="no-tickets-inprogress">No Tickets in progress.</h4>
     <?php } ?>
+</div>
+
+<div id="duepayment" class="tabcontent">
+    <?php if ($hasDuePayment && mysqli_num_rows($ticket_details_query_3) > 0) { ?>
+        <div class="card-container">
+            <?php while ($row3 = mysqli_fetch_assoc($ticket_details_query_3)) {
+                $to_details_query_3 = mysqli_query($conn, "SELECT * FROM `techofficer` WHERE TechOfficerID='{$row3['TechOfficerId']}'");
+                $row3_details = mysqli_fetch_assoc($to_details_query_3);
+                ?>
+                <div class="ticket-card">
+                    <h3>Ticket ID: <?= $row3['TicketId'] ?></h3>
+                    <div class="ticket-details">
+                        <label>Open Date Time:</label>
+                        <span class="value"><?= $row3['OpenDateTime'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Accepted Date Time:</label>
+                        <span class="value"><?= '2024-05-02' /* Replace with actual Accepted Date Time */ ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Priority:</label>
+                        <span class="value"><?= $row3['TPriority'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Description:</label>
+                        <span class="value"><?= $row3['TicketDes'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Issue Type:</label>
+                        <span class="value"><?= $row3['IssueType'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Technical Officer ID:</label>
+                        <span class="value"><?= $row3['TechOfficerId'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Technical Officer Email:</label>
+                        <span class="value"><?= ($row3_details ? $row3_details['Email'] : 'N/A') ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Contact Number:</label>
+                        <span class="value"><?= ($row3_details ? $row3_details['ContactNo'] : 'N/A') ?></span>
+                    </div>
+                    <div class="payment-btn">
+                        <form action="payment.php" method="post">
+                            <input type="hidden" name="ticketId" value="<?= $row3['TicketId'] ?>">
+                            <button class="check-btn" type="submit">&#10003;</button>
+                        </form>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    <?php } else { ?>
+        <h4 class="no-tickets">Tickets with due payments are not available right now.</h4>
+    <?php } ?>
+</div>
+
+
+<div id="completed" class="tabcontent">
+    <?php if ($hasCompleted && mysqli_num_rows($ticket_details_query_4) > 0) { ?>
+        <div class="card-container">
+            <?php while ($row4 = mysqli_fetch_assoc($ticket_details_query_4)) {
+                $to_details_query_4 = mysqli_query($conn, "SELECT * FROM `techofficer` WHERE TechOfficerID='{$row4['TechOfficerId']}'");
+                $row4_details = mysqli_fetch_assoc($to_details_query_4);
+                ?>
+                <div class="ticket-card">
+                    <h3>Ticket ID: <?= $row4['TicketId'] ?></h3>
+                    <div class="ticket-details">
+                        <label>Open Date Time</label>
+                        <span class="value"><?= $row4['OpenDateTime'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Accepted Date Time</label>
+                        <span class="value"><?= '2024-05-02' /* Replace with actual Accepted Date Time */ ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Priority</label>
+                        <span class="value"><?= $row4['TPriority'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Description</label>
+                        <span class="value"><?= $row4['TicketDes'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Issue Type</label>
+                        <span class="value"><?= $row4['IssueType'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Technical Officer ID</label>
+                        <span class="value"><?= $row4['TechOfficerId'] ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Technical Officer Email</label>
+                        <span class="value"><?= ($row4_details ? $row4_details['Email'] : 'N/A') ?></span>
+                    </div>
+                    <div class="ticket-details">
+                        <label>Contact Number</label>
+                        <span class="value"><?= ($row4_details ? $row4_details['ContactNo'] : 'N/A') ?></span>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    <?php } else { ?>
+        <h4 class="no-tickets">No completed tickets.</h4>
+    <?php } ?>
+</div>
+
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
 </body>
 </html>
 
+
 <?php
+mysqli_free_result($ticket_details_query_1);
+mysqli_free_result($ticket_details_query_2);
+mysqli_free_result($ticket_details_query_3);
+mysqli_free_result($ticket_details_query_4);
 mysqli_close($conn);
 ?>
