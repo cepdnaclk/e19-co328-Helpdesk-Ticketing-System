@@ -1,0 +1,6 @@
+Email,Issue_Type,Mobile_Number,Description,Priority,Laptop_Brand,Laptop_Model,Issue_Severity,Previous_Repairs,Repair_Time
+john.doe@example.com,Motherboard and CPU issues,1234567890,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,5
+jane.smith@example.com,Memory(RAM) problems,0987654321,Battery not charging,No,HP,Pavilion,Major,Yes,10
+mark.jones@example.com,Graphics card and Display issues,1112223334,,Yes,Apple,MacBook Air,Minor,No,3
+lisa.white@example.com,Storage Device Problems,4445556667,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,4
+tom.brown@example.com,Power Supply Unit and Power Issues,7778889990,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,8

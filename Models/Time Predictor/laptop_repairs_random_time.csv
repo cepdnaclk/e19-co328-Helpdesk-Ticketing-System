@@ -1,0 +1,601 @@
+Email,Issue_Type,Mobile_Number,Description,Priority,Laptop_Brand,Laptop_Model,Issue_Severity,Previous_Repairs,Repair_Time
+john.doe@example.com,Motherboard and CPU issues,1234567890,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,4
+jane.smith@example.com,Memory(RAM) problems,0987654321,Battery not charging,No,HP,Pavilion,Major,Yes,2
+mark.jones@example.com,Graphics card and Display issues,1112223334,,Yes,Apple,MacBook Air,Minor,No,15
+lisa.white@example.com,Storage Device Problems,4445556667,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,6
+tom.brown@example.com,Power Supply Unit and Power Issues,7778889990,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,15
+user3572@example.com,Graphics card and Display issues,0650934707,,Yes,Apple,MacBook Air,Minor,No,3
+user2560@test.com,Motherboard and CPU issues,7118399333,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user1312@test.com,Memory(RAM) problems,4605594963,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user7887@email.com,Memory(RAM) problems,9996932356,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user1503@email.com,Motherboard and CPU issues,7705259421,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,14
+user3767@email.com,Motherboard and CPU issues,2700901089,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user2179@example.com,Memory(RAM) problems,7799880950,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user2580@email.com,Memory(RAM) problems,4399194384,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user3820@email.com,Motherboard and CPU issues,0910876623,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,8
+user9698@test.com,Memory(RAM) problems,1418722153,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user9393@example.com,Power Supply Unit and Power Issues,9399669844,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,6
+user3025@example.com,Memory(RAM) problems,3938326783,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user9499@example.com,Memory(RAM) problems,0321919527,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user8731@test.com,Power Supply Unit and Power Issues,5206289812,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,6
+user9609@example.com,Storage Device Problems,1602087113,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,8
+user6015@email.com,Memory(RAM) problems,4608285307,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user9727@email.com,Memory(RAM) problems,0471587173,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user6570@email.com,Graphics card and Display issues,6030037263,,Yes,Apple,MacBook Air,Minor,No,8
+user4560@test.com,Memory(RAM) problems,3106829832,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user6947@example.com,Storage Device Problems,8593395954,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,8
+user9212@test.com,Motherboard and CPU issues,1437049638,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,4
+user5716@test.com,Power Supply Unit and Power Issues,7943133207,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,2
+user8605@example.com,Memory(RAM) problems,6290782136,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user9895@example.com,Motherboard and CPU issues,8726607793,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,15
+user2228@test.com,Memory(RAM) problems,6431517210,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user6447@test.com,Memory(RAM) problems,6650280953,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user7942@test.com,Motherboard and CPU issues,6002676553,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,5
+user5324@email.com,Motherboard and CPU issues,7776354541,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user6855@test.com,Memory(RAM) problems,9191544428,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user7575@test.com,Memory(RAM) problems,1091151679,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user4858@example.com,Motherboard and CPU issues,0801067276,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user3101@test.com,Memory(RAM) problems,9307402148,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user9352@test.com,Memory(RAM) problems,0944022737,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user7236@example.com,Storage Device Problems,7572050455,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,10
+user1575@email.com,Power Supply Unit and Power Issues,9740555445,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user5210@example.com,Motherboard and CPU issues,6048533805,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user2149@test.com,Motherboard and CPU issues,9599271188,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,10
+user7183@test.com,Motherboard and CPU issues,6980104983,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,14
+user2475@example.com,Storage Device Problems,4670973622,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,7
+user7014@email.com,Power Supply Unit and Power Issues,7422304339,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user2868@test.com,Motherboard and CPU issues,3721638561,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user7746@example.com,Power Supply Unit and Power Issues,4175184232,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user3825@email.com,Memory(RAM) problems,7643263822,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user4532@test.com,Storage Device Problems,2088306452,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,7
+user9009@test.com,Motherboard and CPU issues,6086627633,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,10
+user6904@email.com,Power Supply Unit and Power Issues,1773489983,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user5585@example.com,Motherboard and CPU issues,2595428999,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,15
+user4511@test.com,Memory(RAM) problems,6751065205,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user2881@example.com,Memory(RAM) problems,8944937958,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user8967@example.com,Memory(RAM) problems,3772038366,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user5942@example.com,Power Supply Unit and Power Issues,6955776529,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user7302@test.com,Memory(RAM) problems,0551561826,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user9277@example.com,Motherboard and CPU issues,9512506945,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,10
+user7719@example.com,Memory(RAM) problems,5177711711,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user7288@test.com,Memory(RAM) problems,4358529360,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user6062@test.com,Memory(RAM) problems,8651935400,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user5357@example.com,Memory(RAM) problems,5681185272,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user7840@example.com,Memory(RAM) problems,8425158509,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user1329@test.com,Power Supply Unit and Power Issues,4831489779,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user8643@test.com,Power Supply Unit and Power Issues,5863536778,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user9804@email.com,Motherboard and CPU issues,3255087390,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user7039@test.com,Motherboard and CPU issues,8530948302,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,15
+user1831@test.com,Storage Device Problems,9553253573,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,12
+user6638@test.com,Memory(RAM) problems,5713565682,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user9356@email.com,Memory(RAM) problems,2759413227,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user4588@email.com,Motherboard and CPU issues,5253015629,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user5830@email.com,Memory(RAM) problems,1288729339,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user9707@test.com,Memory(RAM) problems,4684252299,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user1150@email.com,Motherboard and CPU issues,2230749030,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,1
+user6055@email.com,Memory(RAM) problems,3402921257,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user2399@test.com,Storage Device Problems,8396106683,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,14
+user3383@test.com,Power Supply Unit and Power Issues,2522386340,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user8652@email.com,Memory(RAM) problems,5932676637,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user9152@test.com,Memory(RAM) problems,5631377102,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user9915@example.com,Power Supply Unit and Power Issues,4014738145,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,8
+user6794@example.com,Motherboard and CPU issues,5909623595,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,2
+user4340@example.com,Memory(RAM) problems,9325674159,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user3739@email.com,Motherboard and CPU issues,5632571218,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,1
+user5812@test.com,Memory(RAM) problems,1617724657,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user2503@example.com,Memory(RAM) problems,3479908777,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user7529@example.com,Memory(RAM) problems,9783094579,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user8252@test.com,Motherboard and CPU issues,6379898601,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user3151@email.com,Memory(RAM) problems,7807640361,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user9146@email.com,Memory(RAM) problems,3570987316,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user8083@test.com,Memory(RAM) problems,3569744171,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user5244@test.com,Power Supply Unit and Power Issues,5304078181,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,11
+user2781@example.com,Graphics card and Display issues,2452106709,,Yes,Apple,MacBook Air,Minor,No,13
+user2950@example.com,Motherboard and CPU issues,5241938225,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,11
+user2002@email.com,Storage Device Problems,2037059467,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,5
+user8441@example.com,Motherboard and CPU issues,7995062526,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,4
+user1429@test.com,Power Supply Unit and Power Issues,0345714811,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user7602@example.com,Memory(RAM) problems,2193136680,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user4681@test.com,Motherboard and CPU issues,8042177492,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,14
+user3417@example.com,Memory(RAM) problems,8224540847,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user5080@example.com,Power Supply Unit and Power Issues,1194469733,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user7811@email.com,Memory(RAM) problems,0363807058,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user8028@example.com,Memory(RAM) problems,9818063010,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user2345@email.com,Storage Device Problems,4554308177,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,6
+user7373@email.com,Power Supply Unit and Power Issues,8349961596,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,4
+user5267@test.com,Graphics card and Display issues,7255720765,,Yes,Apple,MacBook Air,Minor,No,1
+user7652@test.com,Memory(RAM) problems,9734928933,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user9045@example.com,Memory(RAM) problems,4482876737,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user9673@example.com,Motherboard and CPU issues,1667305206,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,15
+user8545@test.com,Graphics card and Display issues,9704408891,,Yes,Apple,MacBook Air,Minor,No,6
+user1675@email.com,Memory(RAM) problems,6833299637,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user6675@example.com,Power Supply Unit and Power Issues,8328829769,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user1962@example.com,Power Supply Unit and Power Issues,8003886759,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user5855@email.com,Memory(RAM) problems,2643929358,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user1016@email.com,Power Supply Unit and Power Issues,1549788587,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user4054@test.com,Memory(RAM) problems,2188787723,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user1987@email.com,Memory(RAM) problems,7876005556,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user4673@example.com,Motherboard and CPU issues,1052594449,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user6370@test.com,Memory(RAM) problems,9681830083,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user2029@email.com,Memory(RAM) problems,5434434886,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user2458@test.com,Power Supply Unit and Power Issues,6692044078,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,2
+user6067@email.com,Power Supply Unit and Power Issues,2495141676,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user1846@email.com,Memory(RAM) problems,8175030627,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user2045@example.com,Power Supply Unit and Power Issues,1499174198,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,8
+user6160@email.com,Motherboard and CPU issues,8026644405,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user3616@example.com,Memory(RAM) problems,0096475342,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user6224@email.com,Power Supply Unit and Power Issues,8302447567,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user9034@email.com,Motherboard and CPU issues,0422258003,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,4
+user8218@test.com,Memory(RAM) problems,7551319049,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user9580@example.com,Memory(RAM) problems,8506162778,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user6545@email.com,Memory(RAM) problems,0550321457,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user8101@test.com,Memory(RAM) problems,1286794970,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user4897@email.com,Memory(RAM) problems,1276600574,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user9953@test.com,Memory(RAM) problems,7368362737,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user7295@test.com,Memory(RAM) problems,4143232865,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user4935@email.com,Memory(RAM) problems,2552441101,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user8636@email.com,Power Supply Unit and Power Issues,9987178824,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,15
+user8294@test.com,Memory(RAM) problems,5915201394,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user8462@email.com,Memory(RAM) problems,7463982561,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user7269@example.com,Memory(RAM) problems,0699705640,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user7595@example.com,Power Supply Unit and Power Issues,3216620641,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user7464@test.com,Power Supply Unit and Power Issues,5826881225,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,6
+user1737@example.com,Memory(RAM) problems,0295140923,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user1252@test.com,Memory(RAM) problems,3442371169,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user3966@test.com,Memory(RAM) problems,3967885402,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user6740@email.com,Power Supply Unit and Power Issues,7475025803,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user6951@test.com,Power Supply Unit and Power Issues,5706379544,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user3382@email.com,Power Supply Unit and Power Issues,6409655187,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user1187@email.com,Memory(RAM) problems,1825210150,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user3987@test.com,Storage Device Problems,4832156535,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,11
+user7202@example.com,Memory(RAM) problems,7934779502,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user6225@email.com,Memory(RAM) problems,0267692244,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user4993@email.com,Power Supply Unit and Power Issues,0243013122,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user7900@email.com,Memory(RAM) problems,3575511888,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user6103@example.com,Memory(RAM) problems,9702953077,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user3814@example.com,Motherboard and CPU issues,7109887467,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,14
+user3128@test.com,Memory(RAM) problems,9616205484,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user3201@email.com,Memory(RAM) problems,2049505258,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user2207@test.com,Memory(RAM) problems,8126517769,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user6344@email.com,Motherboard and CPU issues,6444698361,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user3192@email.com,Power Supply Unit and Power Issues,9071844581,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user9358@test.com,Storage Device Problems,2500326204,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,4
+user3455@test.com,Power Supply Unit and Power Issues,4393549295,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,15
+user8828@example.com,Power Supply Unit and Power Issues,2697655494,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user8670@email.com,Memory(RAM) problems,1553233075,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user4623@example.com,Motherboard and CPU issues,9464548282,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,4
+user5313@example.com,Memory(RAM) problems,2778426530,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user1361@test.com,Motherboard and CPU issues,6545692971,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,7
+user8824@test.com,Memory(RAM) problems,8977985854,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user7775@email.com,Memory(RAM) problems,1342815851,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user8355@test.com,Memory(RAM) problems,1780658626,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user1455@example.com,Memory(RAM) problems,9206038909,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user9826@test.com,Power Supply Unit and Power Issues,1164068939,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,6
+user5809@test.com,Memory(RAM) problems,9585744846,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user6639@email.com,Memory(RAM) problems,4767119326,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user1162@email.com,Motherboard and CPU issues,8031137107,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user6031@email.com,Memory(RAM) problems,1063046326,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user3165@test.com,Power Supply Unit and Power Issues,1638297545,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,11
+user1966@example.com,Memory(RAM) problems,6093736789,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user3594@example.com,Memory(RAM) problems,1136392699,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user9280@test.com,Motherboard and CPU issues,3343734791,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,14
+user1319@example.com,Memory(RAM) problems,7282508014,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user1815@email.com,Memory(RAM) problems,2143226096,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user2203@test.com,Memory(RAM) problems,6758274060,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user7799@test.com,Memory(RAM) problems,0293331044,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user3935@example.com,Graphics card and Display issues,1756014207,,Yes,Apple,MacBook Air,Minor,No,1
+user5643@test.com,Memory(RAM) problems,9423627536,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user9649@example.com,Memory(RAM) problems,2806532312,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user3058@example.com,Motherboard and CPU issues,6519482735,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user3697@test.com,Memory(RAM) problems,5821866087,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user4367@test.com,Power Supply Unit and Power Issues,2620892841,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user3285@example.com,Motherboard and CPU issues,6882160010,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,10
+user3492@example.com,Storage Device Problems,5244550100,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,15
+user7508@email.com,Memory(RAM) problems,3372067104,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user6791@email.com,Power Supply Unit and Power Issues,0399833472,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user7826@email.com,Motherboard and CPU issues,6629635001,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,15
+user3632@test.com,Memory(RAM) problems,7028565714,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user5147@example.com,Power Supply Unit and Power Issues,1860630902,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user4764@test.com,Memory(RAM) problems,0242333650,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user7096@example.com,Memory(RAM) problems,7483798584,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user7444@example.com,Motherboard and CPU issues,6074961608,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,2
+user7655@test.com,Memory(RAM) problems,0257917228,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user7169@test.com,Memory(RAM) problems,0689793900,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user8056@example.com,Memory(RAM) problems,4103863231,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user5033@email.com,Memory(RAM) problems,5795889697,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user8714@email.com,Motherboard and CPU issues,5329042194,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user9980@example.com,Memory(RAM) problems,2071797940,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user6670@email.com,Power Supply Unit and Power Issues,2620483222,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user9489@example.com,Motherboard and CPU issues,0926427109,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user9957@email.com,Memory(RAM) problems,3886293795,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user5086@test.com,Memory(RAM) problems,5963190027,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user2324@example.com,Motherboard and CPU issues,1982564672,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user7638@email.com,Power Supply Unit and Power Issues,4914036366,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user3617@email.com,Power Supply Unit and Power Issues,4311774748,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user7787@example.com,Motherboard and CPU issues,5899983181,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,14
+user8226@example.com,Motherboard and CPU issues,9077824813,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,14
+user8218@test.com,Memory(RAM) problems,0633479790,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user7764@email.com,Memory(RAM) problems,4571085572,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user6324@example.com,Motherboard and CPU issues,5011494527,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user7568@email.com,Storage Device Problems,4392380427,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,2
+user7440@email.com,Memory(RAM) problems,7816739725,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user4629@example.com,Memory(RAM) problems,4715426552,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user5779@example.com,Memory(RAM) problems,9800035307,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user7497@email.com,Storage Device Problems,2612900439,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,14
+user4503@example.com,Power Supply Unit and Power Issues,0146569831,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,14
+user6587@email.com,Power Supply Unit and Power Issues,8387819257,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,7
+user9997@email.com,Motherboard and CPU issues,2220218198,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,5
+user4066@example.com,Memory(RAM) problems,3367378859,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user5280@example.com,Memory(RAM) problems,0270942251,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user7572@example.com,Memory(RAM) problems,5367433390,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user6619@example.com,Power Supply Unit and Power Issues,9244609198,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user9072@example.com,Memory(RAM) problems,2921380128,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user9874@example.com,Memory(RAM) problems,5121269780,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user1577@example.com,Motherboard and CPU issues,6764929450,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user1632@example.com,Storage Device Problems,4466047137,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,9
+user9226@email.com,Motherboard and CPU issues,2279039458,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,15
+user2969@example.com,Power Supply Unit and Power Issues,2283547871,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user6028@email.com,Memory(RAM) problems,8156303145,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user6100@email.com,Memory(RAM) problems,6138043069,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user7838@test.com,Power Supply Unit and Power Issues,0377694067,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user8926@test.com,Memory(RAM) problems,5010377005,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user3049@test.com,Memory(RAM) problems,7058898997,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user3447@test.com,Power Supply Unit and Power Issues,0900060041,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,4
+user5562@example.com,Memory(RAM) problems,6057523600,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user1726@example.com,Memory(RAM) problems,2830916167,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user1686@example.com,Memory(RAM) problems,0688478287,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user2803@example.com,Graphics card and Display issues,5613414465,,Yes,Apple,MacBook Air,Minor,No,2
+user9770@email.com,Power Supply Unit and Power Issues,7993097722,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user7654@test.com,Memory(RAM) problems,6786229629,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user8723@email.com,Power Supply Unit and Power Issues,6017378250,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user3105@example.com,Power Supply Unit and Power Issues,6291658159,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,7
+user7679@test.com,Memory(RAM) problems,7408189595,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user9595@test.com,Motherboard and CPU issues,5757470131,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,11
+user3521@email.com,Storage Device Problems,6776650012,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,10
+user2943@test.com,Power Supply Unit and Power Issues,7362973432,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,14
+user3332@email.com,Motherboard and CPU issues,3841896618,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,7
+user7660@email.com,Motherboard and CPU issues,2036134472,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user7122@example.com,Memory(RAM) problems,3350886998,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user2274@test.com,Motherboard and CPU issues,6147419610,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,9
+user4524@example.com,Power Supply Unit and Power Issues,3298464066,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,4
+user9024@example.com,Power Supply Unit and Power Issues,6421063888,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user5792@test.com,Storage Device Problems,0862984854,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,13
+user9793@test.com,Storage Device Problems,3168876012,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,14
+user9232@email.com,Memory(RAM) problems,4187618562,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user6763@test.com,Power Supply Unit and Power Issues,3545373082,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user5806@email.com,Memory(RAM) problems,5927793302,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user2566@test.com,Motherboard and CPU issues,0941667095,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,5
+user1889@test.com,Power Supply Unit and Power Issues,3206362534,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,6
+user1483@email.com,Memory(RAM) problems,1992023094,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user3492@example.com,Motherboard and CPU issues,1133422535,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,1
+user6570@test.com,Memory(RAM) problems,5109015928,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user3553@email.com,Power Supply Unit and Power Issues,0799703842,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,2
+user2896@example.com,Power Supply Unit and Power Issues,4150858719,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user5349@example.com,Motherboard and CPU issues,4822939327,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,11
+user4195@test.com,Memory(RAM) problems,3792625313,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user1709@test.com,Memory(RAM) problems,3884117596,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user9370@example.com,Power Supply Unit and Power Issues,3123209941,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,8
+user9765@email.com,Motherboard and CPU issues,6062367097,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,14
+user1361@test.com,Power Supply Unit and Power Issues,3321519086,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user1706@example.com,Motherboard and CPU issues,3271929014,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,8
+user9198@email.com,Memory(RAM) problems,1393746403,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user3709@email.com,Power Supply Unit and Power Issues,4309390500,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user5181@test.com,Memory(RAM) problems,8408990040,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user2250@example.com,Power Supply Unit and Power Issues,7193297841,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,15
+user5481@test.com,Memory(RAM) problems,0355787356,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user2782@example.com,Power Supply Unit and Power Issues,0739555804,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user4420@example.com,Memory(RAM) problems,7152346897,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user7950@email.com,Storage Device Problems,1496541230,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,5
+user9701@test.com,Motherboard and CPU issues,6232575802,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,10
+user5696@test.com,Power Supply Unit and Power Issues,7954345523,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user1095@email.com,Memory(RAM) problems,7540257000,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user1827@email.com,Memory(RAM) problems,9746442915,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user1708@test.com,Power Supply Unit and Power Issues,7617481608,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,7
+user7478@test.com,Motherboard and CPU issues,1072943702,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,7
+user3604@example.com,Memory(RAM) problems,4137355779,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user3847@example.com,Memory(RAM) problems,7028073389,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user8704@email.com,Power Supply Unit and Power Issues,3766399325,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user5070@example.com,Motherboard and CPU issues,4718070531,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user1269@email.com,Power Supply Unit and Power Issues,9278634642,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user8941@email.com,Memory(RAM) problems,2163183014,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user8756@email.com,Power Supply Unit and Power Issues,1807743381,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,15
+user9424@test.com,Motherboard and CPU issues,3105597942,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,2
+user8418@test.com,Memory(RAM) problems,3421790439,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user5869@example.com,Power Supply Unit and Power Issues,7228086616,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user8422@email.com,Power Supply Unit and Power Issues,8917863105,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user4690@example.com,Motherboard and CPU issues,3065749759,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user8313@example.com,Motherboard and CPU issues,2451323237,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user4247@email.com,Memory(RAM) problems,9828923166,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user4165@email.com,Memory(RAM) problems,3297517441,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user4286@example.com,Memory(RAM) problems,1069497668,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user7747@test.com,Memory(RAM) problems,3527969218,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user4238@email.com,Motherboard and CPU issues,2373119589,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user1722@test.com,Memory(RAM) problems,4433825975,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user3725@test.com,Memory(RAM) problems,5276278569,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user8077@test.com,Memory(RAM) problems,7841629165,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user1130@example.com,Memory(RAM) problems,4478807983,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user9959@example.com,Memory(RAM) problems,0934484426,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user1607@test.com,Memory(RAM) problems,3177408922,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user7583@email.com,Power Supply Unit and Power Issues,3194743554,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user1853@email.com,Power Supply Unit and Power Issues,4455191367,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,14
+user8331@test.com,Memory(RAM) problems,0273276278,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user1202@example.com,Memory(RAM) problems,5975329033,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user1705@email.com,Memory(RAM) problems,7755504233,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user4857@email.com,Power Supply Unit and Power Issues,7493360592,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,14
+user7513@example.com,Power Supply Unit and Power Issues,9369032310,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user1875@example.com,Motherboard and CPU issues,6454734196,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,14
+user7503@test.com,Memory(RAM) problems,4319868980,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user2302@example.com,Memory(RAM) problems,8769065006,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user4175@example.com,Power Supply Unit and Power Issues,7829676719,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,2
+user3337@email.com,Memory(RAM) problems,0241814928,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user8260@test.com,Power Supply Unit and Power Issues,9497752795,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user1389@email.com,Motherboard and CPU issues,7470473492,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,10
+user3672@example.com,Motherboard and CPU issues,5141242975,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,2
+user1969@email.com,Memory(RAM) problems,2091135459,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user1628@example.com,Memory(RAM) problems,2916288987,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user8175@example.com,Motherboard and CPU issues,7526558684,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user5773@email.com,Memory(RAM) problems,4084564037,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user6985@example.com,Memory(RAM) problems,0538817513,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user6631@example.com,Motherboard and CPU issues,5312003149,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,4
+user6339@example.com,Graphics card and Display issues,5820781010,,Yes,Apple,MacBook Air,Minor,No,9
+user8456@example.com,Motherboard and CPU issues,6270878389,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,1
+user6080@email.com,Motherboard and CPU issues,8848213142,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user6750@email.com,Memory(RAM) problems,0932642125,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user9488@email.com,Memory(RAM) problems,8009818570,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user4437@email.com,Memory(RAM) problems,4651071702,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user2961@example.com,Motherboard and CPU issues,2842158350,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user3359@example.com,Memory(RAM) problems,5367165268,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user9137@email.com,Memory(RAM) problems,1173846775,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user9133@test.com,Power Supply Unit and Power Issues,7601965998,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,15
+user6555@email.com,Power Supply Unit and Power Issues,4220663090,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user1412@example.com,Memory(RAM) problems,6737431191,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user7537@email.com,Memory(RAM) problems,0016055823,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user3368@email.com,Memory(RAM) problems,0588568487,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user4459@example.com,Motherboard and CPU issues,6436132050,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user1844@example.com,Memory(RAM) problems,1340162328,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user2335@example.com,Memory(RAM) problems,8036672577,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user9417@email.com,Power Supply Unit and Power Issues,0417098359,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,15
+user8089@test.com,Memory(RAM) problems,4442268871,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user8023@email.com,Memory(RAM) problems,0020447741,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user2656@test.com,Memory(RAM) problems,2298670054,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user4369@email.com,Memory(RAM) problems,9693085436,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user1620@test.com,Memory(RAM) problems,1114012087,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user6440@example.com,Memory(RAM) problems,3637443454,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user7086@email.com,Memory(RAM) problems,8390660023,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user1667@example.com,Storage Device Problems,6748444611,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,10
+user5253@example.com,Memory(RAM) problems,8996721730,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user8301@test.com,Storage Device Problems,6065071842,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,3
+user4734@example.com,Power Supply Unit and Power Issues,0652093600,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user1043@email.com,Motherboard and CPU issues,5529043232,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user9925@email.com,Power Supply Unit and Power Issues,7119216966,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user3814@example.com,Graphics card and Display issues,1043881111,,Yes,Apple,MacBook Air,Minor,No,11
+user2914@test.com,Motherboard and CPU issues,3529434275,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,1
+user3958@test.com,Memory(RAM) problems,0506710948,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user7009@email.com,Memory(RAM) problems,5237188566,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user5476@test.com,Power Supply Unit and Power Issues,2549071934,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user8832@test.com,Power Supply Unit and Power Issues,0598707127,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,2
+user5906@test.com,Power Supply Unit and Power Issues,8213537559,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user4730@example.com,Storage Device Problems,4869630596,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,14
+user6161@email.com,Memory(RAM) problems,7838541619,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user1039@example.com,Power Supply Unit and Power Issues,1969749084,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user1814@test.com,Memory(RAM) problems,4063067808,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user7484@email.com,Power Supply Unit and Power Issues,2368642563,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,6
+user7684@email.com,Power Supply Unit and Power Issues,3387296929,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,14
+user6382@test.com,Memory(RAM) problems,5346676613,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user4635@example.com,Memory(RAM) problems,6595389725,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user9106@test.com,Power Supply Unit and Power Issues,6304660684,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,4
+user2468@email.com,Power Supply Unit and Power Issues,0463534571,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user4673@email.com,Memory(RAM) problems,1897050631,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user6073@email.com,Motherboard and CPU issues,8974780518,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,5
+user8264@test.com,Motherboard and CPU issues,7118384844,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,5
+user1002@email.com,Motherboard and CPU issues,8375925101,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,7
+user6256@example.com,Motherboard and CPU issues,7569574823,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,1
+user5322@example.com,Memory(RAM) problems,4319944981,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user6516@email.com,Power Supply Unit and Power Issues,1244722293,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,8
+user5152@example.com,Memory(RAM) problems,1861149256,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user8866@example.com,Power Supply Unit and Power Issues,2516328908,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user5022@test.com,Memory(RAM) problems,0715149611,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user5546@test.com,Memory(RAM) problems,9430287311,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user9369@email.com,Motherboard and CPU issues,3131518206,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,11
+user2345@test.com,Motherboard and CPU issues,4657816153,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,7
+user6854@example.com,Power Supply Unit and Power Issues,6570004234,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user6157@example.com,Memory(RAM) problems,3492311473,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user6116@email.com,Memory(RAM) problems,9845052759,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user6777@example.com,Storage Device Problems,6195641263,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,13
+user5277@test.com,Memory(RAM) problems,4406908919,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user5991@email.com,Motherboard and CPU issues,6584842550,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,8
+user6934@test.com,Power Supply Unit and Power Issues,8285366070,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user9699@test.com,Power Supply Unit and Power Issues,3996910087,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user5315@email.com,Motherboard and CPU issues,5946664437,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,2
+user8696@email.com,Memory(RAM) problems,2485498416,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user3776@test.com,Memory(RAM) problems,5181947293,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user4550@example.com,Memory(RAM) problems,7955254978,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user8954@email.com,Memory(RAM) problems,4385623595,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user8372@test.com,Storage Device Problems,5548968287,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,12
+user3620@example.com,Power Supply Unit and Power Issues,1974703912,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user2191@email.com,Memory(RAM) problems,9009006789,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user7223@example.com,Motherboard and CPU issues,9323145871,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user4466@example.com,Memory(RAM) problems,0135175812,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user2037@test.com,Motherboard and CPU issues,2393490057,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,11
+user7754@test.com,Motherboard and CPU issues,3279255186,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,4
+user7566@example.com,Power Supply Unit and Power Issues,0224659335,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user3795@example.com,Motherboard and CPU issues,5518602269,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,11
+user5027@example.com,Motherboard and CPU issues,5657747173,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,15
+user8065@test.com,Memory(RAM) problems,1135955762,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user9076@email.com,Storage Device Problems,7311785767,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,5
+user3861@example.com,Power Supply Unit and Power Issues,2262707742,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user4988@test.com,Power Supply Unit and Power Issues,0067983292,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,2
+user1913@email.com,Power Supply Unit and Power Issues,0025024097,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user5471@test.com,Power Supply Unit and Power Issues,5367889640,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,4
+user3944@test.com,Memory(RAM) problems,6229222541,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user2876@email.com,Motherboard and CPU issues,9668669841,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user9651@email.com,Memory(RAM) problems,1158562429,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user2767@example.com,Power Supply Unit and Power Issues,0518065305,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,14
+user1642@test.com,Power Supply Unit and Power Issues,4452509637,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user5942@email.com,Motherboard and CPU issues,7360441208,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,8
+user6200@email.com,Power Supply Unit and Power Issues,2578464307,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,8
+user2357@test.com,Memory(RAM) problems,6190530916,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user5190@email.com,Storage Device Problems,0102544736,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,10
+user6318@test.com,Memory(RAM) problems,7876246614,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user4314@email.com,Power Supply Unit and Power Issues,0667180299,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user6517@test.com,Motherboard and CPU issues,5394438033,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user1315@example.com,Memory(RAM) problems,3837487186,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user9159@test.com,Power Supply Unit and Power Issues,8379934711,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user5766@test.com,Memory(RAM) problems,3713704211,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user5421@example.com,Memory(RAM) problems,8752738170,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user7428@test.com,Memory(RAM) problems,5018132562,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user4611@example.com,Memory(RAM) problems,4724029573,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user5654@test.com,Power Supply Unit and Power Issues,0924809915,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user8431@email.com,Power Supply Unit and Power Issues,7927937136,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,2
+user8265@test.com,Memory(RAM) problems,1421336222,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user8185@test.com,Power Supply Unit and Power Issues,1602866090,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,4
+user2207@example.com,Memory(RAM) problems,3279944174,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user6655@email.com,Memory(RAM) problems,0266298938,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user5072@email.com,Power Supply Unit and Power Issues,0511582472,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user4524@test.com,Memory(RAM) problems,8217590955,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user7397@email.com,Memory(RAM) problems,7944831141,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user8788@email.com,Memory(RAM) problems,1529299165,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user7398@email.com,Motherboard and CPU issues,8272183920,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,10
+user6492@example.com,Power Supply Unit and Power Issues,3893320078,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,10
+user4811@example.com,Memory(RAM) problems,8978022649,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user4989@example.com,Power Supply Unit and Power Issues,7686780365,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,7
+user2118@test.com,Motherboard and CPU issues,4841142958,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,9
+user6394@email.com,Power Supply Unit and Power Issues,3285655515,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,4
+user8189@test.com,Memory(RAM) problems,5177422762,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user2369@test.com,Power Supply Unit and Power Issues,8601404906,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,14
+user6610@test.com,Memory(RAM) problems,2324537538,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user6118@example.com,Graphics card and Display issues,9484169067,,Yes,Apple,MacBook Air,Minor,No,8
+user7090@email.com,Power Supply Unit and Power Issues,1878303012,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user6908@test.com,Memory(RAM) problems,9695694986,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user7006@example.com,Power Supply Unit and Power Issues,2627604720,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,6
+user6662@test.com,Memory(RAM) problems,2663227663,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user1871@test.com,Motherboard and CPU issues,2111742524,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,1
+user5079@test.com,Motherboard and CPU issues,2070455982,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,15
+user6495@test.com,Motherboard and CPU issues,6225716772,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user3162@test.com,Power Supply Unit and Power Issues,8099872519,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,15
+user6101@email.com,Memory(RAM) problems,9216498991,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user8848@test.com,Memory(RAM) problems,5048305765,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user7946@email.com,Motherboard and CPU issues,9791549892,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user7322@example.com,Memory(RAM) problems,8784526388,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user9707@example.com,Memory(RAM) problems,5528972683,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user6560@example.com,Motherboard and CPU issues,4314155896,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,2
+user9110@test.com,Motherboard and CPU issues,7670028360,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user4442@email.com,Memory(RAM) problems,3690345226,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user3041@example.com,Memory(RAM) problems,4021988772,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user2568@test.com,Power Supply Unit and Power Issues,2912639490,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user9781@test.com,Memory(RAM) problems,8122978553,Battery not charging,No,HP,Pavilion,Major,Yes,8
+user9061@email.com,Power Supply Unit and Power Issues,3039997433,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user5222@example.com,Memory(RAM) problems,4700734201,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user3228@test.com,Power Supply Unit and Power Issues,8711418690,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,12
+user5552@example.com,Memory(RAM) problems,0525906333,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user4709@example.com,Memory(RAM) problems,8986163392,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user1647@example.com,Memory(RAM) problems,8941702788,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user6400@example.com,Memory(RAM) problems,9227667776,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user7493@email.com,Memory(RAM) problems,2215134439,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user7078@email.com,Motherboard and CPU issues,9791878540,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,15
+user4407@email.com,Power Supply Unit and Power Issues,0360232022,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user9528@example.com,Power Supply Unit and Power Issues,3996217083,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,6
+user6302@test.com,Power Supply Unit and Power Issues,7771243185,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user9507@example.com,Memory(RAM) problems,0475453732,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user1404@test.com,Memory(RAM) problems,4012383512,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user5782@test.com,Memory(RAM) problems,0471082137,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user1013@test.com,Memory(RAM) problems,9448588106,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user2867@example.com,Motherboard and CPU issues,5856398761,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user8791@test.com,Motherboard and CPU issues,4194798781,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,5
+user9144@email.com,Memory(RAM) problems,4647890782,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user7122@test.com,Memory(RAM) problems,2435495802,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user8206@test.com,Storage Device Problems,2227416592,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,5
+user4086@example.com,Memory(RAM) problems,2106007251,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user7182@email.com,Memory(RAM) problems,2153998450,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user3309@example.com,Motherboard and CPU issues,0449110160,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user3839@example.com,Memory(RAM) problems,7629017411,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user4038@example.com,Memory(RAM) problems,2111026551,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user7978@test.com,Memory(RAM) problems,7275700500,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user7210@test.com,Memory(RAM) problems,1280584351,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user6578@test.com,Memory(RAM) problems,3882241293,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user8870@email.com,Memory(RAM) problems,2986247255,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user4647@example.com,Memory(RAM) problems,6263079605,Battery not charging,No,HP,Pavilion,Major,Yes,4
+user3497@test.com,Power Supply Unit and Power Issues,3169412642,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,15
+user8026@test.com,Memory(RAM) problems,6830740414,Battery not charging,No,HP,Pavilion,Major,Yes,5
+user8996@email.com,Memory(RAM) problems,1049554916,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user9791@test.com,Motherboard and CPU issues,6341301703,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,3
+user6479@test.com,Storage Device Problems,1018449924,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,6
+user4555@test.com,Memory(RAM) problems,8176678114,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user8542@test.com,Memory(RAM) problems,1957007417,Battery not charging,No,HP,Pavilion,Major,Yes,14
+user9231@email.com,Memory(RAM) problems,9752054377,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user2646@email.com,Motherboard and CPU issues,8379212701,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,9
+user4028@test.com,Memory(RAM) problems,0383411750,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user5397@email.com,Storage Device Problems,0374826352,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,5
+user4635@email.com,Power Supply Unit and Power Issues,2065196317,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user7943@test.com,Motherboard and CPU issues,6859827989,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,8
+user6484@test.com,Motherboard and CPU issues,1847932613,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user3371@test.com,Power Supply Unit and Power Issues,5086881094,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,8
+user6048@example.com,Memory(RAM) problems,8073728223,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user1868@test.com,Power Supply Unit and Power Issues,8629273551,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user9214@example.com,Memory(RAM) problems,8025070217,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user4788@test.com,Motherboard and CPU issues,0191101223,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,1
+user6198@example.com,Power Supply Unit and Power Issues,8512066150,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,5
+user3128@example.com,Memory(RAM) problems,4456887091,Battery not charging,No,HP,Pavilion,Major,Yes,6
+user6823@test.com,Memory(RAM) problems,8168756581,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user8621@email.com,Power Supply Unit and Power Issues,6555212669,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,2
+user3547@example.com,Power Supply Unit and Power Issues,3903322896,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user1974@test.com,Memory(RAM) problems,4069147109,Battery not charging,No,HP,Pavilion,Major,Yes,3
+user5334@example.com,Motherboard and CPU issues,8685600793,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,12
+user7801@email.com,Motherboard and CPU issues,0665536677,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,5
+user7477@example.com,Motherboard and CPU issues,2184977864,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,4
+user1049@test.com,Graphics card and Display issues,8557329224,,Yes,Apple,MacBook Air,Minor,No,10
+user2315@email.com,Storage Device Problems,3060467585,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,15
+user3743@email.com,Memory(RAM) problems,5919170121,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user2594@test.com,Power Supply Unit and Power Issues,5643362693,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,9
+user6050@email.com,Memory(RAM) problems,8093554472,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user7807@email.com,Power Supply Unit and Power Issues,1417930001,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user1623@email.com,Memory(RAM) problems,0930218347,Battery not charging,No,HP,Pavilion,Major,Yes,1
+user9902@test.com,Memory(RAM) problems,0498005121,Battery not charging,No,HP,Pavilion,Major,Yes,15
+user2801@example.com,Memory(RAM) problems,2430845131,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user6933@example.com,Motherboard and CPU issues,9392863394,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,10
+user9502@email.com,Power Supply Unit and Power Issues,4212951085,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user3906@email.com,Memory(RAM) problems,6583477530,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user4600@example.com,Memory(RAM) problems,0270687700,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user4918@example.com,Motherboard and CPU issues,8059512050,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,4
+user4630@email.com,Power Supply Unit and Power Issues,4115397383,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,13
+user3339@example.com,Motherboard and CPU issues,7167085483,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,2
+user2462@email.com,Memory(RAM) problems,4287978139,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user6708@test.com,Motherboard and CPU issues,2197733671,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,6
+user3399@example.com,Motherboard and CPU issues,2118288789,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,7
+user9863@test.com,Memory(RAM) problems,0025074163,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user6172@email.com,Motherboard and CPU issues,0336537070,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,9
+user2098@example.com,Motherboard and CPU issues,9940823194,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user7679@email.com,Power Supply Unit and Power Issues,0745209647,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,14
+user4572@test.com,Memory(RAM) problems,4995950110,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user7348@test.com,Memory(RAM) problems,6611608629,Battery not charging,No,HP,Pavilion,Major,Yes,2
+user6497@example.com,Memory(RAM) problems,9054456674,Battery not charging,No,HP,Pavilion,Major,Yes,12
+user6483@email.com,Storage Device Problems,6371196219,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,11
+user8725@example.com,Memory(RAM) problems,2425913091,Battery not charging,No,HP,Pavilion,Major,Yes,11
+user5476@example.com,Memory(RAM) problems,5499390641,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user1046@example.com,Motherboard and CPU issues,2232475660,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,7
+user3711@email.com,Storage Device Problems,6184124838,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,9
+user5532@example.com,Memory(RAM) problems,8016440110,Battery not charging,No,HP,Pavilion,Major,Yes,13
+user3482@email.com,Memory(RAM) problems,5260199051,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user2277@example.com,Power Supply Unit and Power Issues,0510166755,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,11
+user5517@test.com,Memory(RAM) problems,9088574740,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user9056@email.com,Storage Device Problems,2889040771,Slow performance,No,Lenovo,ThinkPad T480,Moderate,Yes,7
+user8996@example.com,Memory(RAM) problems,0635205933,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user4211@email.com,Memory(RAM) problems,7033852173,Battery not charging,No,HP,Pavilion,Major,Yes,7
+user5531@test.com,Power Supply Unit and Power Issues,9875541043,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,11
+user3779@test.com,Memory(RAM) problems,4649717006,Battery not charging,No,HP,Pavilion,Major,Yes,10
+user3559@example.com,Motherboard and CPU issues,0879517274,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user8291@email.com,Power Supply Unit and Power Issues,0284717598,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,11
+user1804@email.com,Motherboard and CPU issues,5042447034,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,10
+user7678@test.com,Power Supply Unit and Power Issues,9694986668,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user5814@example.com,Graphics card and Display issues,2050201638,,Yes,Apple,MacBook Air,Minor,No,12
+user8613@test.com,Memory(RAM) problems,1480953217,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user1574@email.com,Power Supply Unit and Power Issues,0963838204,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,11
+user3344@email.com,Graphics card and Display issues,1899238372,,Yes,Apple,MacBook Air,Minor,No,8
+user2533@email.com,Motherboard and CPU issues,1792537566,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,8
+user3801@example.com,Memory(RAM) problems,8659176985,Battery not charging,No,HP,Pavilion,Major,Yes,9
+user5168@example.com,Power Supply Unit and Power Issues,4515373734,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,1
+user3165@email.com,Motherboard and CPU issues,0468873823,Screen flickering,Yes,Dell,Inspiron 15,Moderate,No,13
+user1464@example.com,Power Supply Unit and Power Issues,7453454551,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,3
+user9151@test.com,Power Supply Unit and Power Issues,6132117774,Hard drive failure,Yes,Acer,Aspire 5,Major,Yes,4
+user5181@email.com,Graphics card and Display issues,5255936172,,Yes,Apple,MacBook Air,Minor,No,2
+user4170@test.com,Graphics card and Display issues,6567173990,,Yes,Apple,MacBook Air,Minor,No,4
